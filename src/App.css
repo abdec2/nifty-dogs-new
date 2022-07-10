@@ -1,0 +1,38 @@
+.bg-como {
+    background-image: url('./assets/como_bg.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-navbar {
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.custom-shape-divider-bottom-1657471885 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1657471885 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1657471885 .shape-fill {
+    fill: #000000CC;
+}
