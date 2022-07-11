@@ -1,6 +1,7 @@
 import About from "../../about"
 import Hero from "../../hero"
 import NavbarComponent from "../../navbar"
+import SliderComponent from "../../slider"
 
 const AlphaCollection = () => {
   return (
@@ -8,8 +9,9 @@ const AlphaCollection = () => {
       <NavbarComponent />
       <Hero />
       <About />
+      <SliderComponent />
     </div>
   )
 }
 
-export default AlphaCollection
+export default AlphaCollection  

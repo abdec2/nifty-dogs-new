@@ -2,7 +2,7 @@
     background-image: url('./assets/como_bg.png');
     background-repeat: repeat-y;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .bg-navbar {
@@ -35,4 +35,47 @@
 
 .custom-shape-divider-bottom-1657471885 .shape-fill {
     fill: #000000CC;
+}
+
+
+.custom-shape-divider-top-1657495032 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: translateY(calc(100%));
+}
+
+.custom-shape-divider-top-1657495032 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+}
+
+.custom-shape-divider-top-1657495032 .shape-fill {
+    fill: #000000CC;
+}
+
+.custom-shape-divider-bottom-1657503357 {
+    position: absolute;
+    bottom: -105px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1657503357 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+}
+
+.custom-shape-divider-bottom-1657503357 .shape-fill {
+    fill: #FFFFFF2B;
 }

@@ -1,7 +1,7 @@
 import hero from './../../assets/hero.png'
 const Hero = () => {
     return (
-        <div className="tw-min-h-[800px] tw-relative">
+        <div className="tw-h-[800px] tw-relative">
             <div className="tw-container tw-mx-auto tw-max-w-[1320px] tw-px-3 tw-relative tw-py-14">
                 <div className='tw-flex tw-items-end tw-justify-end tw-relative tw-z-30'>
                     <div className="tw-w-full lg:tw-w-[60%]">

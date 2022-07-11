@@ -27,10 +27,10 @@ const NavbarComponent = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" children={<ToggleIcon />} />
                     <Navbar.Collapse id="basic-navbar-nav" className="tw-mt-10 lg:tw-mt-0">
                         <Nav className="tw-ml-auto lg:tw-space-x-3">
-                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow hover:tw-font-bold" href="#about">About</Nav.Link>
-                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow hover:tw-font-bold" href="#roadmap">Roadmap</Nav.Link>
-                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow hover:tw-font-bold" href="#artist">Artist</Nav.Link>
-                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow hover:tw-font-bold" href="#faq">FAQ</Nav.Link>
+                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow tw-text-xl hover:tw-font-bold" href="#about">About</Nav.Link>
+                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow tw-text-xl hover:tw-font-bold" href="#roadmap">Roadmap</Nav.Link>
+                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow tw-text-xl hover:tw-font-bold" href="#artist">Artist</Nav.Link>
+                            <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow tw-text-xl hover:tw-font-bold" href="#faq">FAQ</Nav.Link>
                         </Nav>
                         <Nav className="lg:tw-ml-32 tw-my-5 tw-space-x-5 tw-flex tw-items-center tw-justify-center tw-flex-row">
                             <a className="facebook tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-125" href='https://facebook.com/' target="_blank" rel='noreferrer'>

@@ -21,16 +21,16 @@ const StartScreen = () => {
                         <p className='tw-text-white tw-text-xl tw-text-center'>To create an exciting platform to help pair trained service dogs with veterans, Hospitals and other groups. Using cryptocurrencies and blockchain technologies, our community will generate funds that can be donated to specific causes that directly impact the need that people have for trained service dogs.</p>
                     </div>
                     <div className="actionBtns tw-flex tw-items-center tw-justify-center tw-flex-col tw-space-y-6 tw-font-Barlow tw-mb-16">
-                        <Link to='/alpha' className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group'>
+                        <Link to='/alpha' className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group tw-transition-all tw-ease-in-out tw-duration-700'>
                             <span className='tw-text-lg tw-uppercase tw-text-white tw-opacity-25 tw-font-normal group-hover:tw-text-[#3C3D41] group-hover:tw-opacity-100 group-hover:tw-font-bold'>Alpha Collection</span>
                         </Link>
-                        <div className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group'>
+                        <div className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group tw-transition-all tw-ease-in-out tw-duration-700'>
                             <span className='tw-w-full tw-text-lg tw-uppercase tw-text-white tw-opacity-25 tw-font-normal group-hover:tw-text-[#3C3D41] group-hover:tw-opacity-100 group-hover:tw-font-bold'>Bravo Collection</span>
                         </div>
-                        <div className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group'>
+                        <div className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group tw-transition-all tw-ease-in-out tw-duration-700'>
                             <span className='tw-w-full tw-text-lg tw-uppercase tw-text-white tw-opacity-25 tw-font-normal group-hover:tw-text-[#3C3D41] group-hover:tw-opacity-100 group-hover:tw-font-bold'>Charlie Collection</span>
                         </div>
-                        <div className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group'>
+                        <div className='tw-py-2 tw-px-4 tw-w-[280px] tw-text-center tw-border tw-border-white tw-border-opacity-25 tw-rounded-full hover:tw-bg-white hover:tw-cursor-pointer tw-group tw-transition-all tw-ease-in-out tw-duration-700'>
                             <span className='tw-w-full tw-text-lg tw-uppercase tw-text-white tw-opacity-25 tw-font-normal group-hover:tw-text-[#3C3D41] group-hover:tw-opacity-100 group-hover:tw-font-bold'>Delta Collection</span>
                         </div>
                     </div>
