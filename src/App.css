@@ -15,6 +15,19 @@
     color: white;
 }
 
+.sliderArea {
+    /* background: url('./assets/bg_slider1.png'); */
+}
+.carousel-indicators {
+    transform: translateY(60px) !important;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+}
+
 .custom-shape-divider-bottom-1657471885 {
     position: absolute;
     bottom: 0;
