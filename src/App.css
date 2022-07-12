@@ -101,12 +101,12 @@
 
 .custom-shape-divider-top-1657558878 {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: translateY(-36px);
+    z-index: 10;
 }
 
 .custom-shape-divider-top-1657558878 svg {
@@ -118,4 +118,22 @@
 
 .custom-shape-divider-top-1657558878 .shape-fill {
     fill: #565D32;
+}
+
+.whitesArrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0;
+    transform: translateY(-50px);
+}
+
+.whitesArrow svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
 }

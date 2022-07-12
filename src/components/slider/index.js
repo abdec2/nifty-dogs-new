@@ -7,9 +7,9 @@ import img4 from './../../assets/54.png'
 
 const SliderComponent = () => {
   return (
-    <div className="tw-relative  tw-py-24 tw-bg-[#565d32] tw-bg-opacity-[0.7]"> {/* tw-bg-white tw-bg-opacity-[0.17] */}
-      <div className='tw-bg-[#565d32]'>
-        <div className=' tw-relative'>
+    <div className="tw-relative  tw-pt-24 tw-bg-[#565d32] tw-bg-opacity-[0.7]"> {/* tw-bg-white tw-bg-opacity-[0.17] */}
+      <div className='tw-bg-[#565d32] tw-z-10 tw-relative'>
+        <div className=' tw-relative tw-z-10'>
           <Carousel controls={false}>
             <Carousel.Item interval={1000}>
               <img
@@ -64,14 +64,9 @@ const SliderComponent = () => {
             </Carousel.Item>
 
           </Carousel>
-          <div className='tw-h-28'></div>
+          <div className='tw-h-12 tw-relative tw-z-10'></div>
         </div>
-        <div className="custom-shape-divider-top-1657558878">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M1200 0L0 0 598.97 114.72 1200 0z" className="shape-fill"></path>
-          </svg>
-        </div>
-
+      
       </div>
 
     </div>
