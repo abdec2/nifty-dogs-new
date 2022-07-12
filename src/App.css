@@ -137,3 +137,105 @@
     width: calc(100% + 1.3px);
     height: 200px;
 }
+
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #FFC700;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 40px;
+    width: 5px;
+    height: calc(100% + 40px + 4rem);
+    z-index: 400;
+    transform: translateY(-40px);
+}
+
+ul.timeline::after {
+    content: url('./assets/image.svg');
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    transform: translate(calc(-25% + 13px), -50%);
+
+}
+
+ul.timeline > li:before {
+    content: attr(data-no);
+    background-color: black;
+    font-family: "Alfa Slab One";
+    padding-top: 12px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 0;
+    left: 5px;
+    width: 80px;
+    height: 80px;
+    z-index: 400;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    border: 4px solid #FFC700;
+}
+
+ul.timeline > li:last-child::before {
+    background: #FFC700;
+    color: black;
+    margin-bottom: 4rem;
+}
+
+
+
+.greenArea {
+    z-index: 1;
+    transform: translateY(30%);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 70%);
+}
+
+.roadmap_dogImage{
+    content:url('./assets/hero.png');
+    width: 30%;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    transform: scaleX(-1) translateX(calc(-250%));
+}
+
+.roadmap_greenpoly {
+    content:url('./assets/greenpoly.svg');
+    position: absolute;
+    width: 100%;
+    top: 850px;
+    left: 0;
+}
+
+.artistArea {
+    background: url('./assets/tan_camo.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 90%);
+}
+
+.artist_greenLine {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    transform: translateY(30px);
+    clip-path: polygon(0 0, 100% 69%, 100% 90%, 0% 20%);
+}
+
+@media only screen and (max-width: 400px) {
+    .artist_greenLine {
+        transform: translateY(30px);
+        clip-path: polygon(0 30%, 100% 69%, 100% 90%, 0% 50%);
+    }
+}
