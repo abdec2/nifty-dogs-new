@@ -1,7 +1,7 @@
 import about from './../../assets/about.png'
 const About = () => {
     return (
-        <div className="tw-bg-black tw-bg-opacity-80 tw-relative tw-z-50 tw-mb-[105px]" >
+        <div className="tw-bg-black tw-bg-opacity-80 tw-relative tw-z-50 tw-mb-[105px]" id='about'>
             <div className="tw-container tw-mx-auto tw-max-w-[1320px] tw-px-3 tw-relative">
                 <div className="tw-py-4">
                     <div className="tw-w-full">
