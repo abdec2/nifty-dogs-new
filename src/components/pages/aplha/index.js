@@ -7,15 +7,20 @@ import Roadmap from "../../roadmap"
 import SliderComponent from "../../slider"
 import Team from "../../team"
 import FooterComponent from './../../footer'
+import AlertBox from './../../AlertBox'
 
 import image2 from './../../../assets/image2.png'
+import { useState } from "react"
 
 const AlphaCollection = () => {
+  const [error, setError] = useState(false);
+  const [errMsg, setErrMsg] = useState('');
+
   return (
     <div className="tw-bg-black">
       <div className="bg-como">
         <NavbarComponent />
-        <Hero />
+        <Hero setError={setError} setErrMsg={setErrMsg} />
         <About />
         <SliderComponent />
       </div>
@@ -32,7 +37,7 @@ const AlphaCollection = () => {
       </div>
       <FAQ />
       <FooterComponent />
-
+      {error && (<AlertBox msg={errMsg} setError={setError} setErrMsg={setErrMsg} />)}
     </div>
   )
 }
