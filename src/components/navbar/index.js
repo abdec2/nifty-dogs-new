@@ -18,7 +18,7 @@ const ToggleIcon = () => {
 
 const NavbarComponent = () => {
     return (
-        <div>
+        <div className="tw-fixed tw-top-0 tw-left-0 tw-w-full tw-z-[999]">
             <Navbar bg="navbar" expand="lg">
                 <Container>
                     <Link to="/">
@@ -33,16 +33,16 @@ const NavbarComponent = () => {
                             <Nav.Link className="tw-text-white tw-uppercase tw-font-Barlow tw-text-xl hover:tw-font-bold" href="#faq">FAQ</Nav.Link>
                         </Nav>
                         <Nav className="lg:tw-ml-32 tw-my-5 tw-space-x-5 tw-flex tw-items-center tw-justify-center tw-flex-row">
-                            <a className="facebook tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-125" href='https://facebook.com/' target="_blank" rel='noreferrer'>
+                            <a className="facebook tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-125" href='https://www.facebook.com/groups/nft101forpetlovers/?ref=share' target="_blank" rel='noreferrer'>
                                 <img src={facebook} alt="" width={30} />
                             </a>
-                            <a className="twitter tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-125" href='https://twitter.com' target="_blank" rel='noreferrer'>
+                            {/* <a className="twitter tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-125" href='https://twitter.com' target="_blank" rel='noreferrer'>
                                 <img src={twitter} alt="" width={30} />
-                            </a>
-                            <a className="instagram tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-125" href='https://instagram.com' target="_blank" rel='noreferrer'>
+                            </a> */}
+                            <a className="instagram tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-125" href='https://instagram.com/nifty_dogs?igshid=NmZiMzY2Mjc=' target="_blank" rel='noreferrer'>
                                 <img src={insta} alt="" width={30} />
                             </a>
-                            <a href="#" className="tw-text-black tw-uppercase tw-bg-white tw-px-6 tw-py-2 tw-font-bold tw-font-Barlow tw-rounded-full tw-text-lg tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-110">Join our Discord</a>
+                            <a href="https://www.facebook.com/groups/nft101forpetlovers/?ref=share" className="tw-text-black tw-uppercase tw-bg-white tw-px-6 tw-py-2 tw-font-bold tw-font-Barlow tw-rounded-full tw-text-lg tw-transition-all tw-ease-in-out tw-duration-500 hover:tw-scale-110">JOIN US ON FACEBOOK</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -88,7 +88,7 @@ const Hero = ({ setError, setErrMsg }) => {
     }, [account])
 
     return (
-        <div className="tw-h-[800px] tw-relative">
+        <div className="tw-h-[900px] tw-relative tw-pt-36">
             <div className="tw-container tw-mx-auto tw-max-w-[1320px] tw-px-3 tw-relative tw-py-14">
                 <div className='tw-flex tw-items-end tw-justify-end tw-relative tw-z-30'>
                     <div className="tw-w-full lg:tw-w-[60%]">
@@ -96,7 +96,7 @@ const Hero = ({ setError, setErrMsg }) => {
                             <h1 className="tw-text-center tw-text-white tw-uppercase tw-font-Alfa tw-text-5xl lg:tw-text-right tw-w-full tw-break-words lg:tw-text-6xl">The Nifty Dogs Alpha Collection</h1>
                             {
                                 !fbClick && (
-                                    <a href="https://facebook.com/" target="_blank" rel='noreferrer' className="tw-my-10  tw-text-black tw-bg-white tw-font-Barlow tw-text-xl tw-font-bold tw-uppercase tw-px-10 tw-py-3 tw-rounded-full tw-transition-all tw-ease-in-out tw-duration-700 hover:tw-scale-110 tw-text-center lg:tw-text-2xl" onClick={() => setFbClick(true)}>Join us on Facebook</a>
+                                    <a href="https://www.facebook.com/groups/nft101forpetlovers/?ref=share" target="_blank" rel='noreferrer' className="tw-my-10  tw-text-black tw-bg-white tw-font-Barlow tw-text-xl tw-font-bold tw-uppercase tw-px-10 tw-py-3 tw-rounded-full tw-transition-all tw-ease-in-out tw-duration-700 hover:tw-scale-110 tw-text-center lg:tw-text-2xl" onClick={() => setFbClick(true)}>Join us on Facebook</a>
                                 )
                             }
                             {
@@ -119,6 +119,7 @@ const Hero = ({ setError, setErrMsg }) => {
                                     </div>
                                 )
                             }
+                            <p className='tw-text-white tw-font-Barlow tw-w-[250px] tw-text-center lg:tw-text-right tw-text-xl '>Using blockchain technology to pair Vets with Pets</p>
 
                             <img src={hero} alt="" className='tw-w-[80%] tw-relative -tw-z-10 lg:tw-hidden' />
                         </div>

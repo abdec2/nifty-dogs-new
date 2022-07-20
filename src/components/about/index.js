@@ -9,14 +9,16 @@ const About = () => {
                             <h1 className="tw-font-Alfa tw-leading-normal tw-text-3xl tw-text-white tw-uppercase tw-text-center lg:tw-text-left lg:tw-text-5xl">Get Paired up with <br /> a one of a kind dog</h1>
                         </div>
                         <div className="">
-                            <h2 className="tw-text-center tw-font-Grace tw-text-3xl tw-text-[#BFCE0F] tw-uppercase lg:tw-text-6xl lg:tw-text-left lg:tw-ml-32 lg:-tw-rotate-3">Nifty Dogs Alpha Collection</h2>
+                            <h2 className="tw-text-center tw-font-Grace tw-text-3xl tw-text-[#BFCE0F] tw-uppercase lg:tw-text-6xl lg:tw-text-left lg:tw-ml-32 lg:-tw-rotate-3">HELP PAIR A VET AND A PET</h2>
                         </div>
                     </div>
                     <div className="tw-flex tw-items-center tw-justify-center tw-flex-col lg:tw-flex-row tw-mt-8 ">
                         <div className="tw-w-full lg:tw-w-1/2">
-                            <p className="tw-text-white tw-font-Barlow tw-text-lg tw-mb-8">Not only are service dogs difficult to own, but they are also very expensive to manage. Over the years, the government has taken no responsibility for funding the veterans who get service dogs' prescriptions. While the U.S. Congress has only passed the bill for service dog funding, the bill is still in review.</p>
+                            <p className="tw-text-white tw-font-Barlow tw-text-lg tw-mb-8">Emotional support animals can play a big role in helping veterans live normal lives. That’s why Nifty Dogs wants to fill that need for as many veterans as possible. Whether a vet already owns a pet or is looking for a new companion, Nifty Dogs will help train and certify that pet as an emotional service animal. That way the veteran can benefit not only at home but in all public places giving emotional support to our veterans 100% of the time. Over the years, the government has taken no responsibility for funding the veterans who get service dogs' prescriptions. While the U.S. Congress has only passed the bill for service dog funding, the bill is still in review. This is where Nifty Dogs wants to step in to help veterans take their pets through the process and fund the certification from A to Z.</p>
 
-                            <p className="tw-text-white tw-font-Barlow tw-text-lg tw-mb-8">With this backlog in connecting service dogs to veterans and individuals in need of their companionship, Nifty Dogs leverages blockchain technology and its integrative NFT innovation to develop a community of veterans and civilians in need of service dogs for their health. Community members raise funds for service dogs to be trained at K9 warriors and have these trained dogs connected to every veteran. By being a part of the community, every veteran who fought for others' freedom of life can own a service dog or have their dog trained at K9 warriors.</p>
+                            <p className="tw-text-white tw-font-Barlow tw-text-lg tw-mb-8">First Nifty Dogs finds a vet in need. If they need a pet we find one. If they already have a pet, the next step is obedience training with the vet and the pet. Then the proper application and procedure is followed to certify the pet as an emotional support animal, The pet can then be with the vet 100% of the time giving them 100% of the emotional support they need and deserve.</p>
+
+                            <p className="tw-text-white tw-font-Barlow tw-text-lg tw-mb-8">With a backlog in connecting service dogs to veterans in need of their companionship, Nifty Dogs will leverage blockchain technology and use NFTs to connect and fund a community of veterans in need of emotional support. </p>
                         </div>
                         <div className="tw-w-full tw-hidden lg:tw-w-1/2 lg:tw-block">
                             <div className='tw-relative'>

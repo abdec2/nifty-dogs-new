@@ -18,12 +18,12 @@ const Team = () => {
         </div>
 
         <div className="team tw-flex tw-items-center tw-justify-between tw-flex-col md:tw-flex-wrap md:tw-flex-row tw-mt-10">
-          <Member image={image1} name="SHAUN BRENNAN" title="title" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
-          <Member image={image2} name="JON ROMERO" title="title" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
-          <Member image={image3} name="MATTHEW MORRISON" title="title" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
-          <Member image={image4} name="BRADLEY BAKER" title="title" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
-          <Member image={image5} name="ZACH SCHAEFER" title="title" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
-          <Member image={image6} name="ERIC PIERACCI" title="title" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
+          <Member image={image1} name="SHAUN BRENNAN" title="Owner" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
+          <Member image={image2} name="JON ROMERO" title="Owner" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
+          <Member image={image3} name="MATTHEW MORRISON" title="Owner" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
+          <Member image={image4} name="BRADLEY BAKER" title="Development" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
+          <Member image={image5} name="ZACH SCHAEFER" title="Design" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
+          <Member image={image6} name="ERIC PIERACCI" title="Marketing" fb="https://www.facebook.com/" tw="https://twitter.com/" insta="https://www.instagram.com/" />
         </div>
       </div>
       <div className="custom-shape-divider-bottom-1657730253">

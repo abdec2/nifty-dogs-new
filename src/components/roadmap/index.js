@@ -18,56 +18,56 @@ const Roadmap = () => {
             <ul className="timeline tw-w-full md:tw-w-[75%]">
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36 " data-no="01">
                 <h6 className="tw-font-bold tw-pt-4">COMMUNITY LAUNCH</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">The mission is released to the public and the Nifty Dogs Community is born. Connect with us on Discord, Twitter and IG to get Nifty Dog News. Also,  stay engaged to earn monthly giveaways on Discord. Giveaways will include, AirPods, Oculus, Call of Duty, PS5, and crypto rewards.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">The Mission Is ReleasedTo The Public And The Nifty Dogs Community Is Born. Connect With Us On our Facebook Group where we educate users on NFTs, Web3 tech and our project progress. Join our group to Earn Monthly Giveaways that Include, AirPods, Oculus, Call Of Duty, PS5, And Crypto Rewards.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="02">
                 <h6 className="tw-font-bold tw-pt-4">GOFUNDME LAUNCH</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">A GoFundMe account will be created in conjunction with K9s for Warriors. Nifty Dogs community members can make donations to level-up in Discord and be granted access to the whitelist minting of the first collection.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">A GoFundMe Account Will Be Created to help put our first vet/pet, John and Mombo, through the Nifty Dogs training and certification process. A donation will not only help fund Mambo’s training and emotional support animal certification, but it will get donors onto the whitelist for the minting of the Nifty Dogs NFT Alpha Collection.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36 tw-relative" data-no="03">
                 
                 <h6 className="tw-font-bold tw-pt-4">WEBSITE LAUNCH</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">The Nifty Dogs Project website launches. Niftydogs.io is live to the world and the first stages of the roadmap are released.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">The Nifty Dogs decentralized Website Launches. Niftydogs.Io Is live To The World And The First Stages Of The Roadmap Are Released. The site will be an informational touchpoint that directs users to join the Facebook Group where they can build their knowledge of NFTs and how they work.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="04">
                 <h6 className="tw-font-bold tw-pt-4">BISCUIT AWARDS LAUNCH</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">Level up and participate in the Nifty Dog discord community and get rewarded with “Biscuits” Nifty Dogs Version of the Token. Tokenization evolution will take place as the project progresses.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">A Nifty Dogs token, called a “Biscuit” will be created on Ethereum to reward Nifty Dog members for participation and engagement with the project. Tokenization Evolution Will Take Place As The Project Progresses.n After the Alpha collection sells out, 10,000 will be put towards the token to start to monetize the “Biscuit” in the Nifty Dogs ecosystem.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="05">
                 <h6 className="tw-font-bold tw-pt-4">WHITELIST MINTING</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">This is a unique and exclusive collection of 777 hand-drawn Nifty Dog NFTs stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">Donors from the first GoFund me for Momba and John will be invited to a whitelist minting of the Alpha Collection.</p>
                 <p className="tw-mt-8 tw-capitalize tw-text-lg">Our first series of 777 Nifty Dogs will forever be the premium collection, and will provide holders more value than any future Nifty Dog NFTs.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="06">
                 <h6 className="tw-font-bold tw-pt-4">PUBLIC MINTING</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">The remainder of first collection can be minted from the niftydogs.io website and 3rd party sales can be found on OpenSea.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">The Remainder Of First Collection Can Be Minted From The Niftydogs.Io Website And 3rd Party Sales Can Be Found On OpenSea. Our First Series Of 777 Nifty Dogs Will Forever Be The Premium Collection, And Will Provide Holders More Value Than Any Future Nifty Dog NFTs.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="07">
                 <h6 className="tw-font-bold tw-pt-4">MONTHLY GIVEAWAYS</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">Each month NFT holders are automatically entered into a raffle with the chance to win Biscuits, prizes and other exclusive offers such as travel, tickets to events, tactical gear and everything crypto.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">Each Month NFT Holders Are Automatically Entered Into A Raffle With The Chance To Win Biscuits, Prizes And Other Exclusive Offers Such As Travel, Tickets To Events, Tactical Gear And Everything Crypto.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="08">
                 <h6 className="tw-font-bold tw-pt-4">SELLOUT & DAO DONATION</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">Once the first collection sells out, the Nifty Dogs DAO will be created and all 1st collection NFT holders will have stakeholder rights in the DAO with 1 vote per NFT.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">Once The First Collection Sells Out, The Nifty Dogs DAO Will Be Created And All 1st Collection NFT Holders Will Have Stakeholder Rights In The DAO With 1 Vote Per NFT.</p>
 
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">A donation of $10,000 goes towards the building of the mega kennel where Service Dogs and Veterans get trained and paired together.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">A Donation Of $10,000 Goes Towards The Building Of The Mega Kennel Where Service Dogs And Veterans Get Trained And Paired Together.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="09">
                 <h6 className="tw-font-bold tw-pt-4">DAO VOTING DAY</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">Various voting days will be announced where NFT holders decide on the overall direction of the project by voting on topics like development, community engagement, philanthropic decisions, how sales revenue is spent on each collection that is released.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">Various Voting Days Will Be Announced Where NFT Holders Decide On The Overall Direction Of The Project By Voting On Topics Like Development, Community Engagement, Philanthropic Decisions, How Sales Revenue Is Spent On achieving the overall goal of pairing Vets and Pets.</p>
               </li>
 
               <li className="tw-mb-16 tw-pl-28 md:tw-pl-36" data-no="10">
                 <h6 className="tw-font-bold tw-pt-4">TO NIFTY AND BEYOND!</h6>
-                <p className="tw-mt-8 tw-capitalize tw-text-lg">Future development and gamification will take place. The DAO will consider voting on topics like, donations, tokenization and art creation.</p>
+                <p className="tw-mt-8 tw-capitalize tw-text-lg">Future Development And Tokenization Will Take Place with the Biscuit to help Nifty Dog NFT holders participate in the pairing of vets and pets.</p>
               </li>
             </ul>
           </div>

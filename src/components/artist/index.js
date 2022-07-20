@@ -17,10 +17,10 @@ const Artist = () => {
                     </div>
                     <div className='tw-container tw-mx-auto tw-max-w-[1320px] tw-px-3'>
                         <div className="tw-flex tw-items-center tw-justify-between tw-flex-col-reverse lg:tw-flex-row ">
-                            <div className='tw-w-full tw-mb-10 lg:tw-w-1/2 lg:tw-mr-20'>
+                            <div className='tw-w-full tw-mb-10 lg:tw-w-1/2 lg:tw-mr-20 tw-hidden md:tw-block'>
                                 <img className='tw-mx-auto lg:tw-mx-0' src={image1} alt="" />
                             </div>
-                            <div className='tw-w-full tw-mt-36 lg:tw-w-1/2 tw-p-3'>
+                            <div className='tw-w-full tw-mt-36 lg:tw-w-1/2 tw-p-3 tw-mb-20 md:tw-mb-0'>
                                 <div className='artist__heading tw-mb-10'>
                                     <h1 className='tw-text-center tw-text-white tw-text-6xl tw-font-Alfa tw-uppercase md:tw-text-left'>Artist</h1>
                                 </div>

@@ -60,12 +60,12 @@ const FAQ = () => {
                             <div>
                                 <CustomToggle eventKey="0">
                                     <div>
-                                        WHAT IS AN NFT?
+                                         WHAT IS AN NFT?
                                     </div>
                                 </CustomToggle>
                             </div>
                             <Accordion.Collapse eventKey="0">
-                                <div className='tw-px-4 tw-mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros est, rhoncus eu lorem vitae, congue hendrerit diam. Nulla consequat libero ac auctor venenatis. Nullam ut tortor erat. Nunc sem tellus, tempus eu lorem in, aliquam molestie odio. Nunc imperdiet eros lectus, a aliquam ante rhoncus et. Maecenas semper eros sagittis enim ultricies molestie. Vestibulum bibendum justo ante, in accumsan turpis rhoncus ac. Ut ultrices neque et magna malesuada, sed ornare felis ultrices. Sed non augue purus. Etiam nulla lectus, placerat quis ligula sit amet, convallis pulvinar felis. Nunc vitae finibus enim. Aliquam viverra quam quis nunc finibus viverra. Sed sollicitudin, tortor et pulvinar blandit, nisi libero faucibus felis, quis eleifend risus velit vestibulum ipsum.
+                                <div className='tw-px-4 tw-mb-10'>A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain. Nifty Dog NFTs are unique pieces of digital data stored on the Ethereum blockchain. The ownership of an NFT is recorded in the blockchain, and can be transferred by the owner, allowing NFTs to be sold and traded on various exchanges and marketplaces.
 
                                 </div>
                             </Accordion.Collapse>
@@ -80,7 +80,7 @@ const FAQ = () => {
                                 </CustomToggle>
                             </div>
                             <Accordion.Collapse eventKey="1">
-                                <div className='tw-px-4 tw-mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros est, rhoncus eu lorem vitae, congue hendrerit diam. Nulla consequat libero ac auctor venenatis. Nullam ut tortor erat. Nunc sem tellus, tempus eu lorem in, aliquam molestie odio. Nunc imperdiet eros lectus, a aliquam ante rhoncus et. Maecenas semper eros sagittis enim ultricies molestie. Vestibulum bibendum justo ante, in accumsan turpis rhoncus ac. Ut ultrices neque et magna malesuada, sed ornare felis ultrices. Sed non augue purus. Etiam nulla lectus, placerat quis ligula sit amet, convallis pulvinar felis. Nunc vitae finibus enim. Aliquam viverra quam quis nunc finibus viverra. Sed sollicitudin, tortor et pulvinar blandit, nisi libero faucibus felis, quis eleifend risus velit vestibulum ipsum.
+                                <div className='tw-px-4 tw-mb-10'>Nifty Dogs NFTs will be mintable from the niftydog.io website and then available on OpenSea for 3rd party sales and trading.
                                 </div>
                             </Accordion.Collapse>
                         </div>
@@ -94,7 +94,7 @@ const FAQ = () => {
                                 </CustomToggle>
                             </div>
                             <Accordion.Collapse eventKey="2">
-                                <div className='tw-px-4 tw-mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros est, rhoncus eu lorem vitae, congue hendrerit diam. Nulla consequat libero ac auctor venenatis. Nullam ut tortor erat. Nunc sem tellus, tempus eu lorem in, aliquam molestie odio. Nunc imperdiet eros lectus, a aliquam ante rhoncus et. Maecenas semper eros sagittis enim ultricies molestie. Vestibulum bibendum justo ante, in accumsan turpis rhoncus ac. Ut ultrices neque et magna malesuada, sed ornare felis ultrices. Sed non augue purus. Etiam nulla lectus, placerat quis ligula sit amet, convallis pulvinar felis. Nunc vitae finibus enim. Aliquam viverra quam quis nunc finibus viverra. Sed sollicitudin, tortor et pulvinar blandit, nisi libero faucibus felis, quis eleifend risus velit vestibulum ipsum.
+                                <div className='tw-px-4 tw-mb-10'>When you “MINT” a Nifty Dogs NFT you are converting digital data into crypto collections or digital assets that are recorded on the Ethereum blockchain. Nifty Dog digital products or files will be stored in a distributed ledger or decentralized database and cannot be edited, modified, or deleted.
                                 </div>
                             </Accordion.Collapse>
                         </div>
@@ -108,7 +108,7 @@ const FAQ = () => {
                                 </CustomToggle>
                             </div>
                             <Accordion.Collapse eventKey="3">
-                                <div className='tw-px-4 tw-mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros est, rhoncus eu lorem vitae, congue hendrerit diam. Nulla consequat libero ac auctor venenatis. Nullam ut tortor erat. Nunc sem tellus, tempus eu lorem in, aliquam molestie odio. Nunc imperdiet eros lectus, a aliquam ante rhoncus et. Maecenas semper eros sagittis enim ultricies molestie. Vestibulum bibendum justo ante, in accumsan turpis rhoncus ac. Ut ultrices neque et magna malesuada, sed ornare felis ultrices. Sed non augue purus. Etiam nulla lectus, placerat quis ligula sit amet, convallis pulvinar felis. Nunc vitae finibus enim. Aliquam viverra quam quis nunc finibus viverra. Sed sollicitudin, tortor et pulvinar blandit, nisi libero faucibus felis, quis eleifend risus velit vestibulum ipsum.
+                                <div className='tw-px-4 tw-mb-10'>Nifty Dogs NFTs will cost .0777 ETH. This is around $200 USD or whatever the market value of Ethereum is at the time of minting.
                                 </div>
                             </Accordion.Collapse>
                         </div>
@@ -122,7 +122,7 @@ const FAQ = () => {
                                 </CustomToggle>
                             </div>
                             <Accordion.Collapse eventKey="4">
-                                <div className='tw-px-4 tw-mb-10'>Renowned artist Zeehan has after weeks of work decided to use their knowledge and experience with major studios to bring a project that has never be seen before to the NFT space.
+                                <div className='tw-px-4 tw-mb-10'>The Nifty Dogs mission is to pair emotional support animals with people in need through NFTs and blockchain technologies. Funding will go towards obedience training with the pet and owner as well as emotional support animal application and certification.
                                 </div>
                             </Accordion.Collapse>
                         </div>
