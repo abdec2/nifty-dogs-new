@@ -4,7 +4,7 @@ import AlphaCollection from "../components/pages/aplha"
 
 const RoutesConfig = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/niftydogs">
         <Routes>
             <Route path="/" element={<StartScreen />} />
             <Route path="/alpha" element={<AlphaCollection />} />
